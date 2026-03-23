@@ -16,9 +16,9 @@ import java.util.Map;
 public class AiUtils {
 
     // 替换为你自己的 DeepSeek API Key
-    private static final String API_KEY = "sk-3870228272a546e8a9822bf0aa4fbcc7";
+    private static final String API_KEY = "";
     // DeepSeek 的接口地址
-    private static final String API_URL = "https://api.deepseek.com/chat/completions";
+    private static final String API_URL = "";
 
     /**
      * 调用 AI 生成总结
