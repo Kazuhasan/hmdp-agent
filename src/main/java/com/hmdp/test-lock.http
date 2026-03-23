@@ -1,0 +1,9 @@
+### 模拟线程 A (8081端口)
+POST http://localhost:8081/voucher-order/seckill/10
+authorization: 3fbf25580ce14a23b5674c6f60cc6923
+Content-Type: application/json
+
+### 模拟线程 B (8082端口，或者直接用8081模拟也可以)
+POST http://localhost:8082/voucher-order/seckill/10
+authorization: 3fbf25580ce14a23b5674c6f60cc6923
+Content-Type: application/json
